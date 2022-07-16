@@ -23,4 +23,4 @@ X
 
 **[GitHub Link ✨](https://github.com/mxhuisken/hw_newPortfolio)**
 
-**[Deployed Link ✨]()**
+**[Deployed Link ✨](https://mxhuisken.github.io/hw_newPortfolio/)**

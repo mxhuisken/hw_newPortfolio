@@ -13,39 +13,45 @@
 
         <div class="logo"></div>
 
-        <nav class="navbar">
-            <ul class="navcontent">
-                <li><a href="#aboutme">home</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
+        <nav role='navigation'>
+            <div id="menuToggle">
+              
+              <input type="checkbox" />
+              
+              <span></span>
+              <span></span>
+              <span></span>
+              
+              <ul id="menu">
+                <a href="#aboutme"><li>home</li></a>
+                <a href="#skills"><li>skills</li></a>
+                <a href="#projects"><li>projects</li></a>
+                <a href="#contact"><li>contact</li></a>
+              </ul>
+
+            </div>
+          </nav>
 
     </header>
 
     <!-- END OF HEADER SECTION-->
 
     <main>
-        <section class="aboutSection">
+        <section class="aboutSection" id="aboutme">
 
-            <div class="aboutImages">
+           
+            <div class="aboutImg">
 
-                <div class="aboutImg1">
-                    <img>
-                </div>
-
-                <div class="aboutImg2"> 
-                    <img>
-                </div>
+                <img src="./assets/images/logoinvs.png">
 
             </div>
+
 
             <!-- ABOUT SEPERATION  -->
 
             <div class="aboutRight">
 
-                <div>
+                <div class="aboutPContainer">
 
                     <p> Hi there! Welcome to my portfolio!</p>
                     <p> My name is Marina and I'm an aspiring full stack developer with a passion for design.</p>
@@ -54,97 +60,23 @@
 
                 </div>
 
+                <div class="blobs_1"></div>
+
             </div>
 
         </section>
 
         <!-- END OF ABOUT SECTION -->
 
-        <section class="skillsSection">
+        <section class="skillsSection" id="skills">
 
         </section>
-
+        
         <!-- END OF SKILLS -->
 
-        <section class="projectSection">
-
-            <div class="projectOne">
-
-                <p class="p1p"></p>
-                <img src="X">
-
-            </div>
-
-             <!-- END OF P1 -->
-
-            <div class="projectTwo">
-
-                <p class="p2p"></p>
-                <img src="X">
-
-            </div>
-
-             <!-- END OF P2 -->
-
-            <div class="projectThree">
-
-                <p class="p3p"></p>
-                <img src="X">
-
-            </div>
-
-             <!-- END OF P3 -->
-
-            <div class="projectFour">
-
-                <p class="p4p"></p>
-                <img src="X">
-
-            </div>
-            
-        </section>
-
-        <!-- END OF PROJECT SECTION-->
-
-        <section class="contactsection">
-
-            <div class="contactContainer">
-
-                <form class="contactForm">
-
-                    <input type="text" class="nameInput" name="name" placeholder="name please...">
-
-                    <input type="text" class="emailInput" name="email" placeholder="email here...">
-
-                    <input type="text" class="subjectInput" name="subject" placeholder="subject...">
-
-                    <textarea class="textInput" name="text" placeholder="tell me a bit about what I can help you with..."></textarea>
-
-                    <button type="submit">send</button>
-
-                    <button type="reset">clear</button>
-
-                </form>
-
-            </div>
-
-            <div class="contactLinks">
-                <div class="contactImg1">
-                    <a href="https://www.linkedin.com/" target="_blank">
-                        <img src="./assets/images/linkedinIcon.png">
-                    </a>
-                </div>
-        
-                <div class="contactImg2">
-                    <a href="https://github.com/mxhuisken" target="_blank">
-                        <img src="./assets/images/github-logo.png">
-                    </a>
-                </div>
-            </div>
-            
-        </section>
     </main>
 
-    
+    <script src="./assets/script.js"></script>
+
 </body>
 </html>
