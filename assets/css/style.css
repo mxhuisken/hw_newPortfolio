@@ -128,9 +128,64 @@ body{
 
 /* CONTACT */
 
+.contactHeading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: rgb(71, 105, 169);
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.contactContainer{
+    margin: auto;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfo input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(77, 124, 177);
+    padding: 5px;
+}
+
+.contactInfo textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(77, 124, 177);
+    padding: 5px;
+}
+
+#contactBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+#contactBtns button{
+    margin: 10px;
+}
+
 .contactLinks{
     display: flex;
     justify-content: center;
+    margin: 35px;
 }
 
 .contactLinks img {
