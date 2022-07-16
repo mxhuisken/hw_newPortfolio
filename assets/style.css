@@ -23,8 +23,9 @@ a
 {
   text-decoration: none;
   color: #4d5175;
-  
   transition: color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 a:hover
@@ -133,7 +134,7 @@ a:hover
   right: -100px;
   border-radius: 75%;
   
-  background: #ededed;
+  background: #d4f3ff;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -205,9 +206,22 @@ a:hover
     width: 100%;
 }
 
-/* SKILLS */
-
 /* PROJECTS */
+
+/* PROJECT IMGS */
+
+.proImgDiv{
+    height: 275px ;
+    width: 450px;
+}
+
+.proImgDiv img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
 
 /* CONTACT */
 
