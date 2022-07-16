@@ -9,15 +9,15 @@
 
 ## Description 📋
 
-X
+Updated portfolio, building off of each previos version through the course. 
 
 ## Preview 📸
 
-![Visual](location of file)
+![Visual](./assets/images/porti.gif)
 
 ## Usage 🖥
 
-X
+Send out to prospective employers, continue to add to site with updated projects and skills.
 
 ## Links 💾
 
