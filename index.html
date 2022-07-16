@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>✨ Welcome || Marina</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/animations.css">
 </head>
 <body> <!-- -->
 
@@ -24,7 +25,6 @@
               
               <ul id="menu">
                 <a href="#aboutme"><li>home</li></a>
-                <a href="#skills"><li>skills</li></a>
                 <a href="#projects"><li>projects</li></a>
                 <a href="#contact"><li>contact</li></a>
               </ul>
@@ -70,10 +70,12 @@
 
         <section class="projectSection" id="projects">
 
-            <div class="projectOne">
-        
-                <p class="p1left"> a magical site that displays a gradient of colors based on user input</p>
-                <p class="p2left">html | css | javascript | api</p>
+            <div class="projectOne" id="proRight">
+                
+                <div class="paraLeft">
+                    <p class="p1right" id="p1"> A magical site that displays a gradient of colors based on user input</p>
+                    <p class="p2right">html | css | javascript | api</p>
+                </div>
                 
                 <div class="proImgDiv">
                     <img id="proImg" src="./assets/images/colordemo.gif">
@@ -84,23 +86,27 @@
         
              <!-- END OF P1 -->
         
-            <div class="projectTwo">
-        
-                <p class="p1right"> a fun quiz about cats that allows the user to test their knowledge & save their scores </p>
-                <p class="p2right"> html | css | javascript</p>
+            <div class="projectTwo" id="proLeft">
                 
                 <div class="proImgDiv">
                     <img id="proImg" src="./assets/images/quizdemo.gif">
+                </div>
+
+                <div class="paraRight">
+                    <p class="p1left" id="p1"> A fun quiz about cats that allows the user to test their knowledge & save their scores </p>
+                    <p class="p2left"> html | css | javascript</p>
                 </div>
         
             </div>
         
              <!-- END OF P2 -->
         
-            <div class="projectThree">
+            <div class="projectThree" id="proRight">
         
-                <p class="p1left"> a multiplayer drawing & guessing game. users take turns drawing randomly generated words & gains points based on correct guesses each round. The player with the most points wins. </p>
-                <p class="p2left"> handlebars | css | javascript | node | express | sql db | socket.io </p>
+                <div class="paraLeft">
+                    <p class="p1right" id="p1"> A multiplayer drawing & guessing game to play with friends, highest score wins!</p>
+                    <p class="p2right"> handlebars | css | javascript | node | express | sql db | socket.io </p>
+                </div>
                 
                 <div class="proImgDiv">
                     <img id="proImg" src="./assets/images/dudldemo.gif">
@@ -110,15 +116,23 @@
         
              <!-- END OF P3 -->
         
-            <div class="projectFour">
-        
-                <p class="p1right"> modern and minimalistic weather dashboard. allows users to view the most pertinent weather info and save up to 10 searched cities at a time. </p>
-                <p class="p2right"> html | css | javascript | api's </p>
-
+            <div class="projectFour" id="proLeft">
+            
                 <div class="proImgDiv">
                     <img id="proImg" src="./assets/images/weather.gif">
                 </div>
+
+                <div class="paraRight">
+                    <p class="p1left" id="p1"> Modern & minimalistic weather dashboard, saves info for up to 10 searched cities</p>
+                    <p class="p2left"> html | css | javascript | api's </p>
+                </div>
         
+            </div>
+
+            <div class="projectBtn">
+                <a href="https://github.com/mxhuisken?tab=repositories" target="_blank">
+                    <button class="glow-on-hover">see more...</button>
+                </a>
             </div>
             
         </section>
